@@ -2,6 +2,12 @@
   "name": "agriwise",
   "version": "0.1.0",
   "private": true,
+  "description": "Smart Crop Advisory System built with Next.js",
+  "main": "next.config.mjs",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",

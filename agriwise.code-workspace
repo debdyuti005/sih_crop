@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.preferences.rootDirectory": ".",
+    "nextjs.rootDirectory": ".",
+    "vercel.rootDirectory": "."
+  },
+  "extensions": {
+    "recommendations": [
+      "vercel.vscode-vercel",
+      "bradlc.vscode-tailwindcss",
+      "ms-vscode.vscode-typescript-next",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}

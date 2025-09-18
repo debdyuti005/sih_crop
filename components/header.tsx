@@ -33,15 +33,24 @@ export function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
               Features
             </a>
+            <Link href="/soil-health" className="text-muted-foreground hover:text-foreground transition-colors">
+              Soil Health
+            </Link>
+            <Link href="/pest-disease" className="text-muted-foreground hover:text-foreground transition-colors">
+              Pest Detection
+            </Link>
+            <Link href="/marketprice" className="text-muted-foreground hover:text-foreground transition-colors">
+              Market Price
+            </Link>
+            <Link href="/weather" className="text-muted-foreground hover:text-foreground transition-colors">
+              Weather
+            </Link>
             <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
               About
-            </a>
-            <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
-              Contact
             </a>
           </nav>
 
